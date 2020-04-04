@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/datail_title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/labelId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textDetailTitle"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/id"
+        tools:text="Id: " />
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/labelId"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/labelId"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/labelNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelId"
+        android:layout_below="@+id/labelId"
+        android:layout_marginTop="28dp"
+        android:text="@string/nombres"
+        tools:text="Nombres: " />
+
+    <TextView
+        android:id="@+id/textNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/labelNombres"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/labelNombres"
+        android:text="Pedro" />
+
+    <TextView
+        android:id="@+id/labelApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelNombres"
+        android:layout_below="@+id/labelNombres"
+        android:layout_marginTop="28dp"
+        android:text="@string/apellidos"
+        tools:text="Apellidos: " />
+
+    <TextView
+        android:id="@+id/textApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/labelApellidos"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/labelApellidos"
+        android:text="Montoya" />
+
+    <TextView
+        android:id="@+id/labelCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelApellidos"
+        android:layout_below="@+id/labelApellidos"
+        android:layout_marginTop="28dp"
+        android:text="@string/correo"
+        tools:text="Correo: " />
+
+    <TextView
+        android:id="@+id/textCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/labelCorreo"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/labelCorreo"
+        android:text="pedro@montoya.com" />
+
+    <TextView
+        android:id="@+id/labelImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelCorreo"
+        android:layout_below="@+id/labelCorreo"
+        android:layout_marginTop="28dp"
+        android:text="@string/imagenPerfil"
+        tools:text="Imagen de perfil: " />
+
+    <ImageView
+        android:id="@+id/imagePerfil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/labelImagen"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/labelImagen"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="59dp"
+        android:text="@string/volver" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginStart="59dp"
+        android:background="@color/alert"
+        android:text="@string/delete"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
