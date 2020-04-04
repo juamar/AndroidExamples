@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Content Resolvers</string>
+    <string name="try_again">Try again</string>
+    <string name="readContactsDenied">Read contacts permission denied. Next time, please avail in order to continue.</string>
+</resources>

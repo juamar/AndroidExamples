@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentLifeCicle</string>
+    <string name="change_text">Change Text</string>
+    <string name="change_position">Change position</string>
+    <string name="fragment_two">Fragment Two</string>
+    <string name="fragmentText">Insert a text and press button</string>
+    <string name="next">Next ></string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Google Maps Example</string>
+    <string name="title_activity_maps">Map Example</string>
+    <string name="title_activity_main">Map 2</string>
+    <string name="title_activity_camera_map">Camera in maps</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="next">Next</string>
+    <string name="tilt">Tilt</string>
+    <string name="bearing">Bearing</string>
+</resources>

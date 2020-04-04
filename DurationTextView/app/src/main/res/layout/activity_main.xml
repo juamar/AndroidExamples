@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <es.lhdev.trainingapp.views.DurationTextView
+        android:id="@+id/duration1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:template="This month, you have trained %s"
+        tools:text="less than 1 minute" />
+
+    <es.lhdev.trainingapp.views.DurationTextView
+        android:id="@+id/duration2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duration1"
+        app:template="You have run"
+        tools:text="less than 1 minute" />
+
+    <es.lhdev.trainingapp.views.DurationTextView
+        android:id="@+id/duration3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duration2"
+        tools:text="less than 1 minute" />
+
+    <es.lhdev.trainingapp.views.DurationTextView
+        android:id="@+id/duration4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duration3"
+        app:template="You have cycled %s"
+        tools:text="less than 1 minute" />
+
+    <es.lhdev.trainingapp.views.DurationTextView
+        android:id="@+id/duration5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duration4"
+        app:template="Every day, you sleep %s"
+        tools:text="less than 1 minute" />
+
+</android.support.constraint.ConstraintLayout>

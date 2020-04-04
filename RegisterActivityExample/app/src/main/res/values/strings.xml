@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RegistroUsuario</string>
+
+    <string name="t_reg_usuario">Dar de alta:</string>
+    <string name="t_nombre">Nombre</string>
+    <string name="t_apellidos">Apellidos</string>
+    <string name="t_correo">Correo</string>
+    <string name="t_usuario">Usuario</string>
+    <string name="t_contrasena">Contraseña</string>
+
+    <string name="t_enviar">Enviar</string>
+
+    <string name="t_datos">Datos</string>
+
+    <string name="t_aceptar">Aceptar</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AnswerTheQuestion</string>
+    <string name="ask">Ask your question</string>
+    <string name="answer">Here goes the answer</string>
+    <string name="buttonAsk">Ask the question</string>
+    <string name="question">Here goes the question</string>
+    <string name="answer_question">Answer the question</string>
+    <string name="answer1">Answer</string>
+</resources>

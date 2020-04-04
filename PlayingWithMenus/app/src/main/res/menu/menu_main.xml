@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.lhdev.menus.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/action_patata"
+        android:title="Patata"
+        android:onClick="randomMenuOption">
+        <menu android:id="@+id/submenu1">
+            <item
+                android:id="@+id/patata1"
+                android:title="Patata1" >
+                <menu android:id="@+id/submenu2">
+                    <item
+                        android:id="@+id/patata3"
+                        android:title="Patata3" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <group
+        android:id="@+id/group_items"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/item1"
+            android:title="Item1" />
+        <item
+            android:id="@+id/item2"
+            android:title="Item2" />
+    </group>
+</menu>
